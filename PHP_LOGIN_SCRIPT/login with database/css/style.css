@@ -1,0 +1,54 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.wrapper {
+    display: block;
+    max-width: 500px;
+    margin: 10% auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text, .submit {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.text {
+    border: 1px solid #ccc;
+}
+
+.submit {
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+}
+
+.message {
+    padding: 0 10px;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.message.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.message.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
