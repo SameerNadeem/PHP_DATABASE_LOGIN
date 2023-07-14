@@ -1,13 +1,12 @@
 <?php
 // Default timezone
 date_default_timezone_set(UTC);
-
-// Database details
-define( 'DB_USER', 'YOUR DATABASE USERNAME HERE' );
-define( 'DB_PASS', 'YOUR DATABASE PASSWORD HERE' );
-define( 'DB_NAME', 'YOUR DATABASE NAME HERE' );
+// did not want to put my database information - sameer nadeem
+define( 'DB_USER', 'DATABASE USERNAME' );
+define( 'DB_PASS', 'DATABASE PASSWORD' );
+define( 'DB_NAME', 'DATABASE NAME' );
 define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8mb4');
-define( 'ABS_URL', 'YOUR FOLDER URL HERE' );
-define( 'ADMIN_NAME', 'YOUR NAME HERE' );
-define( 'ADMIN_EMAIL', 'YOUR EMAIL ADDRESS HERE' );
+define( 'ABS_URL', 'FOLDER URL ' );
+define( 'ADMIN_NAME', 'NAME ' );
+define( 'ADMIN_EMAIL', ' EMAIL ADDRESS ' );
